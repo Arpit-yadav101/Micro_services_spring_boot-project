@@ -1,0 +1,33 @@
+
+# 2. Create a .gitignore file to prevent this issue
+echo "# Database files - NEVER commit these!
+volume-data/
+data/
+*.sock
+*.db
+*.sqlite
+mysql_data/
+mysql_keycloak_data/
+
+# Java/Maven
+target/
+bin/
+build/
+.mvn/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db"
